@@ -1,0 +1,86 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: white;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,  
+        -1px 1px 0 black, 
+        1px 1px 0 black;
+    background-image: url("sunflower.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a {
+    color: white;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,  
+        -1px 1px 0 black, 
+        1px 1px 0 black;
+}
+
+a:hover {
+    color: black;
+    text-shadow:
+        -1px -1px 0 goldenrod,
+        1px -1px 0 goldenrod,  
+        -1px 1px 0 goldenrod, 
+        1px 1px 0 goldenrod;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.suggestions {
+    margin-top: 20px;
+}
+
+.copyright {
+    color: black;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,  
+        -1px 1px 0 white, 
+        1px 1px 0 white;
+}
+
+#input-word {
+    padding: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+
+#check-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#check-button:hover {
+    background-color: goldenrod;
+    color: black;
+    transform: scale(1.06);
+}
+
+#suggestion-list {
+    list-style: none;
+    padding: 0;
+}
+
+#suggestion-list li {
+    font-size: 18px;
+    margin: 5px;
+}
