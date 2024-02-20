@@ -74,19 +74,6 @@ document.addEventListener("DOMContentLoaded", function() {
         return costArray[lengthFirst][lengthSecond];
     }
 
-   /* function displaySuggestions(suggestions) {
-        suggestions.forEach(suggestion => {
-            const suggestionItem = document.createElement("li");
-            const suggestionLink = document.createElement("a");
-            suggestionLink.href = `https://www.dictionary.com/browse/${suggestion}`;
-            suggestionLink.target = "_blank";
-            suggestionLink.textContent = suggestion;
-            suggestionItem.appendChild(suggestionLink);
-            suggestionList.appendChild(suggestionItem);
-        });
-    }
-    */
-
     function displaySuggestions(suggestions) {
         suggestions.forEach(suggestion => {
             const suggestionItem = document.createElement("li");
@@ -109,9 +96,23 @@ document.addEventListener("DOMContentLoaded", function() {
             thesaurusLink.target = "_blank";
             thesaurusLink.textContent = "Thesaurus";
     
+            const rhymeZoneLink = document.createElement("a");
+            rhymeZoneLink.href = `https://www.rhymezone.com/r/rhyme.cgi?Word=${suggestion}&typeofrhyme=perfect&org1=syl&org2=l&org3=y`;
+            rhymeZoneLink.target = "_blank";
+            rhymeZoneLink.textContent = "Rhyme Zone";
+    
+            const googleTrendsLink = document.createElement("a");
+            googleTrendsLink.href = `https://trends.google.com/trends/explore?date=now%201-d&geo=US&q=${suggestion}&hl=en`;
+            googleTrendsLink.target = "_blank";
+            googleTrendsLink.textContent = "Google Trends";
+    
             tabContainer.appendChild(dictionaryLink);
             tabContainer.appendChild(document.createTextNode(" | "));
             tabContainer.appendChild(thesaurusLink);
+            tabContainer.appendChild(document.createTextNode(" | "));
+            tabContainer.appendChild(rhymeZoneLink);
+            tabContainer.appendChild(document.createTextNode(" | "));
+            tabContainer.appendChild(googleTrendsLink);
     
             suggestionItem.appendChild(wordContainer);
             suggestionItem.appendChild(tabContainer);
@@ -119,5 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
             suggestionList.appendChild(suggestionItem);
         });
     }
+    
+    
 });    
 
