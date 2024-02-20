@@ -74,11 +74,50 @@ document.addEventListener("DOMContentLoaded", function() {
         return costArray[lengthFirst][lengthSecond];
     }
 
-    function displaySuggestions(suggestions) {
+   /* function displaySuggestions(suggestions) {
         suggestions.forEach(suggestion => {
             const suggestionItem = document.createElement("li");
-            suggestionItem.textContent = suggestion;
+            const suggestionLink = document.createElement("a");
+            suggestionLink.href = `https://www.dictionary.com/browse/${suggestion}`;
+            suggestionLink.target = "_blank";
+            suggestionLink.textContent = suggestion;
+            suggestionItem.appendChild(suggestionLink);
             suggestionList.appendChild(suggestionItem);
         });
     }
-});
+    */
+
+    function displaySuggestions(suggestions) {
+        suggestions.forEach(suggestion => {
+            const suggestionItem = document.createElement("li");
+            suggestionItem.style.listStyleType = "none";
+    
+            const wordContainer = document.createElement("span");
+            wordContainer.style.fontWeight = "bold";
+            wordContainer.textContent = suggestion;
+    
+            const tabContainer = document.createElement("span");
+            tabContainer.style.marginLeft = "10px";
+    
+            const dictionaryLink = document.createElement("a");
+            dictionaryLink.href = `https://www.dictionary.com/browse/${suggestion}`;
+            dictionaryLink.target = "_blank";
+            dictionaryLink.textContent = "Dictionary";
+    
+            const thesaurusLink = document.createElement("a");
+            thesaurusLink.href = `https://www.thesaurus.com/browse/${suggestion}`;
+            thesaurusLink.target = "_blank";
+            thesaurusLink.textContent = "Thesaurus";
+    
+            tabContainer.appendChild(dictionaryLink);
+            tabContainer.appendChild(document.createTextNode(" | "));
+            tabContainer.appendChild(thesaurusLink);
+    
+            suggestionItem.appendChild(wordContainer);
+            suggestionItem.appendChild(tabContainer);
+    
+            suggestionList.appendChild(suggestionItem);
+        });
+    }
+});    
+

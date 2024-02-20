@@ -271,7 +271,7 @@ amends
 amendsbut
 amendsof
 amiable
-amiable)
+amiable
 amiablebut
 amid
 amidst
@@ -332,7 +332,7 @@ anxiety
 anxious
 anxiously
 any
-any)
+any
 anybody
 anybodys
 anyhow
@@ -392,7 +392,7 @@ archness
 ardent
 ardently
 are
-are)
+are
 argued
 arguing
 argument
@@ -464,7 +464,7 @@ assistant
 assisted
 assisting
 associated
-associated)
+associated
 associating
 assume
 assumed
@@ -548,6 +548,7 @@ away
 awayyou
 awe
 awed
+awesome
 awful
 awkward
 awkwardness
@@ -555,7 +556,6 @@ awoke
 aye
 ayebecause
 ayethat
-b
 back
 backed
 backgammon
@@ -609,7 +609,7 @@ been
 beengaged
 befall
 before
-before)
+before
 beforehand
 befriended
 beg
@@ -683,7 +683,7 @@ billiardtable
 bills
 binary
 bingley
-bingley)
+bingley
 bingleys
 birds
 birmingham
@@ -903,7 +903,7 @@ casual
 catch
 catching
 catherine
-catherine)
+catherine
 catherines
 caught
 cause
@@ -991,7 +991,7 @@ chicken
 chief
 chiefly
 child
-child)
+child
 childhood
 children
 chimneypiece
@@ -2063,7 +2063,7 @@ else
 elsewhere
 eluded
 email
-email)
+email
 embargo
 embarrassed
 embarrassment
@@ -2641,7 +2641,7 @@ friendless
 friendlier
 friendly
 friends
-friends)
+friends
 friendshas
 friendship
 friendswhether
@@ -2862,7 +2862,7 @@ guilty
 guinea
 gulf
 gutenberg
-gutenberg)
+gutenberg
 gutenbergtm
 gutenbergtms
 habit
@@ -3049,7 +3049,7 @@ hither
 hitherto
 hold
 holder
-holder)
+holder
 holding
 home
 hometo
@@ -3090,7 +3090,7 @@ houses
 how
 however
 howsoever
-http//gutenbergorg/license)
+http//gutenbergorg/license
 http//pglaforg
 http//pglaforg/donate
 http//pglaforg/fundraising
@@ -3511,7 +3511,7 @@ irs
 is
 isher
 it
-it)
+it
 italian
 itbut
 itnothing
@@ -3587,7 +3587,7 @@ kind
 kinder
 kindest
 kindly
-kindly)
+kindly
 kindness
 kindred
 kinds
@@ -3685,6 +3685,8 @@ left
 legacy
 legal
 legally
+lengend
+legendary
 leisure
 leisurely
 lend
@@ -3712,7 +3714,7 @@ liberties
 liberty
 libertywhich
 library
-library)
+library
 licence
 license
 licensed
@@ -3782,7 +3784,7 @@ long
 longbourn
 longed
 longer
-longer)
+longer
 longexpected
 longing
 loo
@@ -3821,7 +3823,7 @@ lower
 lowest
 lowness
 lucas
-lucas)
+lucas
 lucases
 lucass
 luck
@@ -4123,7 +4125,7 @@ mutual
 mutually
 my
 myself
-myself)
+myself
 myselffor
 mystery
 name
@@ -4173,8 +4175,11 @@ neighbours
 neither
 nephew
 nephews
+nerd
+nerve
 nerves
 nervous
+nervy
 net
 netherfield
 netting
@@ -4188,7 +4193,7 @@ newcomers
 newest
 newlyborn
 news
-news)
+news
 newsand
 newscapital
 newsletter
@@ -4513,7 +4518,7 @@ partners
 partridges
 parts
 party
-party)
+party
 partyfor
 pass
 passage
@@ -4617,7 +4622,7 @@ petrified
 petticoat
 petulance
 pg
-pglaf)
+pglaf
 phaeton
 philips
 phillips
@@ -4789,7 +4794,7 @@ premises
 preparation
 preparations
 prepare
-prepare)
+prepare
 prepared
 preparing
 prepossessed
@@ -5878,7 +5883,7 @@ spasms
 speak
 speaker
 speaking
-speaking)
+speaking
 speakingstating
 speaks
 special
@@ -6351,7 +6356,7 @@ tongue
 tongues
 tonight
 too
-too)
+too
 toofor
 took
 top
