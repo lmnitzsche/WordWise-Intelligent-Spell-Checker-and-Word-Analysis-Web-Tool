@@ -14,26 +14,6 @@ Word Wise is a powerful web-based tool designed for comprehensive spell checking
 - **Advanced Spell Checking:** Utilizes extensive word databases to offer accurate and reliable spell checking capabilities.
 - **In-Depth Word Analysis:** Provides detailed word analysis features including synonyms, antonyms, rhymes, and trends.
 
-## Installation
-
-To run Word Wise locally, follow these steps:
-
-1. **Clone the Repository:**
-
-    ```bash
-    git clone https://github.com/yourusername/Word-Wise.git
-    ```
-
-2. **Navigate to the Project Directory:**
-
-    ```bash
-    cd Word-Wise
-    ```
-
-3. **Open the `index.html` File:**
-
-    Simply open `index.html` in your web browser to view and interact with the tool.
-
 ## Usage
 
 1. **Access the Tool:**
