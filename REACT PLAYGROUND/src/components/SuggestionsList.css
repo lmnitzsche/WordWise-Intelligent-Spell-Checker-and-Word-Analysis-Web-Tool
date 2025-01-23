@@ -1,0 +1,39 @@
+.suggestions {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .suggestions-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .suggestion-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .suggestion-text {
+    font-weight: bold;
+  }
+  
+  .suggestion-links {
+    font-size: 0.9rem;
+  }
+  
+  .suggestion-links a {
+    color: #00bcd4;
+    text-decoration: none;
+  }
+  
+  .suggestion-links a:hover {
+    text-decoration: underline;
+  }
+  

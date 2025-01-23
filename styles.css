@@ -1,86 +1,155 @@
-html {
+/* Global Styles */
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('sunflower.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
-body {
-    font-family: Arial, sans-serif;
+/* Flexbox for Centering Content */
+.app-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Header */
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+/* Input and Button Styling */
+.input-container {
+    margin-top: 20px;
     text-align: center;
-    margin: 0;
-    padding: 0;
-    height: 100%;
+}
+
+input[type="text"] {
+    padding: 12px 18px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 280px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #3498db;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    background-color: #3498db;
     color: white;
-    text-shadow:
-        -1px -1px 0 black,
-        1px -1px 0 black,  
-        -1px 1px 0 black, 
-        1px 1px 0 black;
-    background-image: url("sunflower.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
 }
 
 a {
     color: white;
-    text-shadow:
-        -1px -1px 0 black,
-        1px -1px 0 black,  
-        -1px 1px 0 black, 
-        1px 1px 0 black;
 }
-
 a:hover {
-    color: black;
-    text-shadow:
-        -1px -1px 0 goldenrod,
-        1px -1px 0 goldenrod,  
-        -1px 1px 0 goldenrod, 
-        1px 1px 0 goldenrod;
+    color: #3498db;
+
 }
 
-.input-container {
-    margin-top: 20px;
-}
-
+/* Suggestions Styling */
 .suggestions {
-    margin-top: 20px;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
-.copyright {
-    color: black;
-    text-shadow:
-        -1px -1px 0 white,
-        1px -1px 0 white,  
-        -1px 1px 0 white, 
-        1px 1px 0 white;
-}
-
-#input-word {
-    padding: 5px;
-    font-size: 16px;
-    width: 200px;
-}
-
-#check-button {
-    padding: 5px 10px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-#check-button:hover {
-    background-color: goldenrod;
-    color: black;
-    transform: scale(1.06);
+.suggestions h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 15px;
 }
 
 #suggestion-list {
     list-style: none;
     padding: 0;
+    font-size: 1.2rem;
+    max-height: 300px;
+    overflow-y: auto;
 }
 
 #suggestion-list li {
-    font-size: 18px;
-    margin: 5px;
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#suggestion-list li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Footer */
+footer {
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff00ee;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .input-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    input[type="text"], button {
+        width: 100%;
+    }
+
+    .suggestions {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #suggestion-list li {
+        font-size: 1rem;
+    }
 }

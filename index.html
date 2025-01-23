@@ -3,25 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spell Checker</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Word Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Word Analyzer</h1>
-    <div class="copyright">
-        &copy; <span id="currentYear"></span> <a href="https://logannitzsche.com">Logan Nitzsche</a>
+    <div class="app-container">
+        <header>
+            <h1>Word Wise: Spell Checker and Word Analyzer</h1>
+        </header>
+        <main>
+            <div class="input-container">
+                <h4>Explore 370,000+ words and 1.5M+ resources for detailed insights:</h4>
+                <input type="text" id="input-word" placeholder="Type a word..." autocomplete="off">
+                <button id="check-button">Check</button>
+            </div>
+            <div class="suggestions">
+                <h2>Suggestions:</h2>
+                <ul id="suggestion-list"></ul>
+            </div>
+        </main>
     </div>
-    <div class="input-container">
-        <br>
-        <h4>Enter Word: </h4>
-        <input type="text" id="input-word" placeholder="Type a word">
-        <button id="check-button">Check</button>
-    </div>
-    <div class="suggestions">
-        <h2>Suggestions:</h2>
-        <ul id="suggestion-list"></ul>
-    </div>
+    <footer class="copyright">
+        &copy; <span id="currentYear"></span> <a href="https://logannitzsche.com" target="_blank">Logan Nitzsche</a>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
-
