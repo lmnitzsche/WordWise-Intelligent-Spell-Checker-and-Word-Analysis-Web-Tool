@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const currentYear = new Date().getFullYear();
     currentYearElement.textContent = currentYear;
     
-    fetch('dictionary.txt')
+    fetch('word.txt')
         .then(response => response.text())
         .then(dictionaryData => {
             const dictionary = dictionaryData.split('\n').map(word => word.toLowerCase().trim());
