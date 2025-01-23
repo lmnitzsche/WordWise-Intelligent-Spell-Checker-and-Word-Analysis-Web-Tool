@@ -40,7 +40,7 @@ h1 {
 input[type="text"] {
     padding: 12px 18px;
     font-size: 1rem;
-    border: 2px solid #ccc;
+    border: 2px solid #fff;
     border-radius: 5px;
     width: 280px;
     margin-bottom: 20px;
@@ -50,7 +50,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
     border-color: #3498db;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #ffffffd8;
 }
 
 button {
@@ -73,8 +73,8 @@ a {
     color: white;
 }
 a:hover {
-    color: #3498db;
-
+    color: #5dbeff;
+    font-weight: bold;
 }
 
 /* Suggestions Styling */
@@ -126,11 +126,6 @@ footer {
 footer a {
     color: #fff;
     text-decoration: none;
-}
-
-footer a:hover {
-    color: #ff00ee;
-    font-weight: bold;
 }
 
 /* Responsive Design */
