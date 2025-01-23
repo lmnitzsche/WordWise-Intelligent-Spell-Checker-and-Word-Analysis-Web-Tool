@@ -105,6 +105,11 @@ document.addEventListener("DOMContentLoaded", function() {
             googleTrendsLink.href = `https://trends.google.com/trends/explore?date=now%201-d&geo=US&q=${suggestion}&hl=en`;
             googleTrendsLink.target = "_blank";
             googleTrendsLink.textContent = "Google Trends";
+
+            const urbanLink = document.createElement("a");
+            urbanLink.href = `https://www.urbandictionary.com/define.php?term=${suggestion}`;
+            urbanLink.target = "_blank";
+            urbanLink.textContent = "Urban Dictionary";
     
             tabContainer.appendChild(dictionaryLink);
             tabContainer.appendChild(document.createTextNode(" | "));
@@ -113,6 +118,8 @@ document.addEventListener("DOMContentLoaded", function() {
             tabContainer.appendChild(rhymeZoneLink);
             tabContainer.appendChild(document.createTextNode(" | "));
             tabContainer.appendChild(googleTrendsLink);
+            tabContainer.appendChild(document.createTextNode(" | "));
+            tabContainer.appendChild(urbanLink);
     
             suggestionItem.appendChild(wordContainer);
             suggestionItem.appendChild(tabContainer);
