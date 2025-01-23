@@ -1,10 +1,10 @@
 # Word Wise: Intelligent Spell Checker and Word Analysis
 
-**[Word Wise: Intelligent Spell Checker and Word Analysis](https://logannitzsche.com/WordWise-Intelligent-Spell-Checker-and-Word-Analysis-Web-Tool)**
+**[Word Wise: Intelligent Spell Checker and Word Analyzer](https://logannitzsche.com/WordWise-Intelligent-Spell-Checker-and-Word-Analysis-Web-Tool)**
 
 ## Overview
 
-Word Wise is a powerful web-based tool designed for comprehensive spell checking and word analysis. Developed using HTML, CSS, and JavaScript, the tool provides an advanced platform for analyzing and improving written content. It manages a vast database of over 500,000 words and integrates with more than 2,000,000 external resources, including dictionaries, thesauruses, rhyme zones, and Google Trends, to deliver accurate and insightful word analysis.
+Word Wise is a powerful web-based tool designed for comprehensive spell checking and word analysis. Developed using HTML, CSS, and JavaScript, the tool provides an advanced platform for analyzing and improving written content. It manages a vast database of over 370,000 words and integrates with more than 1,500,000 external resources, including dictionaries, thesauruses, rhyme zones, and Google Trends, to deliver accurate and insightful word analysis.
 
 ## Features
 
