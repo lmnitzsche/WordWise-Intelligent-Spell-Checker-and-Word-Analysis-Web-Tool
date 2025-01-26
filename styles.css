@@ -4,7 +4,7 @@ html, body {
     padding: 0;
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    background-image: url('sunflower.jpeg');
+    background-image: url('images/sunflower.jpeg');
     background-size: cover;
     background-position: center;
     color: #ffffff;
