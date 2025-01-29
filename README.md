@@ -1,6 +1,6 @@
-# Word Wise: Intelligent Spell Checker and Word Analysis
+# Word Wise: Spell Checker and Word Analysis
 
-**[Word Wise: Intelligent Spell Checker and Word Analyzer](https://logannitzsche.com/WordWise-Intelligent-Spell-Checker-and-Word-Analysis-Web-Tool)**
+**[Word Wise: Spell Checker and Word Analyzer](https://logannitzsche.com/WordWise-Intelligent-Spell-Checker-and-Word-Analysis-Web-Tool)**
 
 ## Overview
 
