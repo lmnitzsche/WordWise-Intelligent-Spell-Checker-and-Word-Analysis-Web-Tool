@@ -117,7 +117,9 @@ a:hover {
 footer {
     font-size: 0.9rem;
     color: #fff;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     text-align: center;
     margin-top: auto;
     padding: 20px 0;
