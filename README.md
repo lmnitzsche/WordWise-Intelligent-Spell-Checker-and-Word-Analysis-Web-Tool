@@ -1,6 +1,4 @@
-# Word Wise: Spell Checking and Word Analysis Tool
-
-**[Word Wise](https://logannitzsche.com/word-analysis-tool)**
+# **[Word Wise: Spell Checking and Word Analysis Tool](https://logannitzsche.com/word-analysis-tool)**
 
 ## Overview
 
